@@ -22,3 +22,4 @@ architecture mux_4t1_arch of mux_4t1 is
                         D0 when "00",
                         (others => 'X') when others;
     end mux_4t1_arch;
+    

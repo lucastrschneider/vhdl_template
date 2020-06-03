@@ -61,4 +61,3 @@ architecture mux_4t1_tb_arch of mux_4t1_tb is
             wait;
         end process;
 end architecture mux_4t1_tb_arch;
-

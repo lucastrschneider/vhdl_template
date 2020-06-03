@@ -18,7 +18,7 @@ TB_DIR := testbench
 
 # Source Files
 CPNT_TARGETS	:= $(wildcard $(CPNT_DIR)/*.vhd)
-TB_TARGETS 		:= $(wildcard $(TB_DIR)/*.vhd)
+TB_TARGETS		:= $(wildcard $(TB_DIR)/*.vhd)
 ALL_TARGETS		:= $(CPNT_TARGETS) $(TB_TARGETS)
 
 # Name of the component to be tested
