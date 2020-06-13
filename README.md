@@ -17,6 +17,10 @@ Para analisar os componentes e testbenches, execute o comando
 ```bash
 make analyse
 ```
+ou apenas
+```bash
+make
+```
 
 ### Verificar sintaxe
 Para apenas verificar a sintaxe dos arquivos, execute
@@ -47,6 +51,8 @@ make test CPNT=mux_4t1 VISUAL=1
 Nesse caso, o componente `mux_4t1` será testado com a testbench `mux_4t1_tb` e o GtlWave será aberto para visualizar o resultado da simulação.
 
 OBS: Para testar o CPNT=mux_4t1, é necessário executar o arquivo mux_4t1_tb, por isso o padrão de nomenclatura deve sempre ser seguido.
+
+OBS2: É necessário analisar os componentes antes de testar, e após qualquer mudança também.
 
 ## Instalando o necessário
 
