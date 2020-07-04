@@ -4,9 +4,9 @@ Template para os projetos em VHDL das disciplinas de PCS3215 (SD1) e PCS3225 (SD
 
 ## Organização do repositório
 
-Os arquivos que descrevem componentes devem ficar dentro da pasta `coponent`.
+Os arquivos que descrevem componentes devem ficar dentro da pasta `component`.
 
-Os testbenches de cada componente devem ficar dentro da pasta `testbench` e deverão ser nomeados `(component name)_tb`. Além disso, a entidade deve seguir o mesmo padrão de nomes para evitar erros no Makefile.
+Os testbenches de cada componente devem ficar dentro da pasta `testbench` e deverão ser nomeados `(component_name)_tb`. Além disso, a entidade deve seguir o mesmo padrão de nomes para evitar erros no Makefile.
 
 ## Compilando e executando
 
